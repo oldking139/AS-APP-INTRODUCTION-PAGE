@@ -299,7 +299,27 @@ dl, ol, ul {
 }
 .lds-ellipsis div:nth-child(1) {
   left: 6px;
+
   animation: lds-ellipsis1 0.5s infinite;
+ 
+}
+.lds-ellipsis div:nth-child(1) p {
+    animation: lds-ellipsis1 0.5s infinite;   
+}
+.lds-ellipsis div:nth-child(2) p {
+    animation: lds-ellipsis1 1s infinite;   
+}
+.lds-ellipsis div:nth-child(3) p {
+    animation: lds-ellipsis1 1.5s infinite;   
+}
+.lds-ellipsis div:nth-child(4) p {
+    animation: lds-ellipsis1 2s infinite;   
+}
+.lds-ellipsis div:nth-child(5) p {
+    animation: lds-ellipsis1 2.5s infinite;   
+}
+.lds-ellipsis div:nth-child(6) p {
+    animation: lds-ellipsis1 3s infinite;   
 }
 .lds-ellipsis div:nth-child(2) {
   left: 6px;
@@ -319,7 +339,7 @@ dl, ol, ul {
 }
 .lds-ellipsis div:nth-child(6) {
     left: 85px;
-     animation: lds-ellipsis4 0.5s infinite;
+    animation: lds-ellipsis4 0.5s infinite;
 }
 @keyframes lds-ellipsis1 {
   0% {
@@ -1296,6 +1316,7 @@ dl, ol, ul {
 	text-align: left;
 }
 .active-btn {
+    height: 65px;
 	border: 2px solid #13c3c9;
 	background: #13c3c9;
 }
