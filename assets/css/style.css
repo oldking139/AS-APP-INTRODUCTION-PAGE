@@ -39,6 +39,24 @@
 @import url("owl.carousel.min.css");
 @import url("owl.theme.default.min.css");
 
+
+@media screen and (max-width: 750px)
+{
+    body .download-button{
+        opacity: 0;
+        width: 30rem;
+        height: 5rem;
+       
+    }
+    body .download-button span {
+        font-size:3rem;
+    };
+    body .home-area .home-content h1
+    {
+        font-size: 5rem;
+    }
+}
+
 body {
 	background: #ffffff;
 	color: #333;
